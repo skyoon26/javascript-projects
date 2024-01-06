@@ -19,6 +19,7 @@ let daysToMars = hrsToMars / 24;
 
 // Print the results of the space mission calculations below
 console.log(shuttleName + " will take " + daysToMars + " days to reach Mars.");
+
 // Calculate a trip to the moon below
 let miToMoon = KmToMoon * miPerKm;
 let hrsToMoon = miToMoon / shuttleSpeedMph;
