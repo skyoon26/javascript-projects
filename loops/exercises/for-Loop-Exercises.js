@@ -54,13 +54,9 @@ let odds = [];
 
 for (let i = 0; i < arr.length; i++) {
   if (arr[i] % 2 === 0) {
-    let num = Number(arr[i]);
-    evens.push(num);
-    // evens = evens + arr[i]; 
+    evens.push(arr[i]);
   } else {
-    let num = Number(arr[i]);
-    odds.push(num)
-    // odds = odds + arr[i];
+    odds.push(arr[i])
   }
 }
 
