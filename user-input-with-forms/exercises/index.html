@@ -21,9 +21,12 @@
           <option value="terrier">Terrier</option>
         </select>
       </label>
-      <label>Number of Rocket Boosters<input type="number" name="numberBoosters"/></label>
-      <label>Wind Rating</label>
-      <label>Use production grade servers</label>
+      <label>Number of Rocket Boosters<input type="number" name="boosterCount"/></label>
+      <label>Wind Rating:</label>
+        <label>No Wind<input type="radio" name="windRating" value="0"/></label>
+        <label>Mild<input type="radio" name="windRating" value="10"/></label>
+        <label>Strong<input type="radio" name="windRating" value="20"/></label>
+      <label>Use production grade servers<input type="checkbox" name="productionServers"/></label>
       <button>Run Simulation</button>
     </form>
   
